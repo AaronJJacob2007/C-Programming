@@ -1,20 +1,22 @@
 # C Programming
 
-This repository contains C programs developed while learning programming fundamentals and problem-solving techniques.
+A collection of small C programs written while learning programming fundamentals. Each file is a separate exercise, from number problems and string operations to pointers, structures and sorting.
 
-## Topics Covered
+## Browse the exercises
 
-- Arrays
-- Strings
-- Functions
-- Recursion
-- Structures
-- Pointers
-- Dynamic Memory Allocation
-- Searching Algorithms
-- Sorting Algorithms
-- Number-Based Problems
+- **Arrays and strings:** `ArrayMaxMin.c`, `ArrayMerge.c`, `VowelCheckInString.c`
+- **Functions and recursion:** `PalindromeFunction.c`, `factorialrecursion.c`, `PowerRecursion.c`
+- **Pointers and memory:** `PointerBasic.c`, `Pointerswapnos.c`, `MallocRealloc.c`
+- **Structures:** `StudentMarksAvgStructures.c`, `EmployeeStructure.c`
+- **Searching and sorting:** `LinearSearch.c`, `Task8-BubbleSort.c`
 
-## Purpose
+## Compile and run
 
-To strengthen my understanding of programming concepts through practical implementations and problem-solving exercises.
+With a C compiler such as GCC installed, compile an individual file from the repository directory:
+
+```sh
+gcc LinearSearch.c -o linear-search
+./linear-search
+```
+
+On Windows, run `.\linear-search.exe` instead. Files are independent exercises and should be compiled separately.
